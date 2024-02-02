@@ -1,2 +1,2 @@
 # E11_Labwork
-@@ repository for sensor code for e11 lab.
+Repository for sensor code for E11 Lab.
