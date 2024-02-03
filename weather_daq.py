@@ -19,8 +19,6 @@ while True:
     data = [time.time(), bme680.temperature]
     print(data)
     time.sleep(1)
-while i < 2:
-    print(i)
-    i += 1
-else: 
-    print('Finish')
+data = [time.time(),bme680.temperature,bme680.gas,bme680.relative_humidity,bme680.pressure]
+print(data)
+time.sleep(1)
